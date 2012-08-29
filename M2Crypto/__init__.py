@@ -41,7 +41,8 @@ import X509
 import PGP
 import m2urllib
 # Backwards compatibility.
-urllib2 = m2urllib
+# -- this is disabled to avoid contaminating urllib2
+# urllib2 = m2urllib
 
 import sys
 if sys.version_info >= (2,4):
