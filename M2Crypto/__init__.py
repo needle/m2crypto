@@ -18,6 +18,7 @@ Copyright 2008-2011 Heikki Toivonen. All rights reserved.
 
 version_info = (0, 21, 1)
 version = '.'.join([str(_v) for _v in version_info])
+is_sane = True
 
 import __m2crypto
 import m2
