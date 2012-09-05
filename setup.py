@@ -133,9 +133,9 @@ m2crypto = Extension(name = 'M2Crypto.__m2crypto',
                      #extra_link_args = ['-Wl,-search_paths_first'], # Uncomment to build Universal Mac binaries
                      )
 
-setup(name = 'M2Crypto',
+setup(name = 'M2Crypto-sane',
       version = '0.21.1',
-      description = 'M2Crypto: A Python crypto and SSL toolkit',
+      description = 'M2Crypto-sane: A [sane] Python crypto and SSL toolkit',
       long_description = '''\
 M2Crypto is the most complete Python wrapper for OpenSSL featuring RSA, DSA,
 DH, EC, HMACs, message digests, symmetric ciphers (including AES); SSL
